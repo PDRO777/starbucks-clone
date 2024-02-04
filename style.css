@@ -37,19 +37,13 @@ h1 span {
 */
 
 article {
-    position: relative;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 2;
 }
 
 article .texto {
-    position: relative;
-    max-width: 600px;
-    z-index: 1;
-    margin-right: 20px;
+    margin-right: 160px;
 }
 
 article .texto h1 {
@@ -112,31 +106,30 @@ article .texto a:hover {
     border-radius: 50%;
 }
 
-#menu {
-    position: fixed;
-    right: 120px;
-    top: 13%;
-    margin-top: -2.5em
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#menu li {
+.menu li {
     font-weight: 500;
-    margin-right: 25px;
+    margin-right: 30px;
     list-style: none;
     display: inline-block;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: #333535;
 }
 
-#menu a:hover {
+.menu a:hover {
     background: #026F42;
     color: #FFF;
     border-radius: 20px;
     padding: 5px 8px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .icons {
